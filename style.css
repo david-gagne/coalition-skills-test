@@ -117,3 +117,13 @@ h1.section-title {
     top: 1.8vw;
 }
 
+div.carousel {
+    height: 120px;
+    width: 100vw;
+    background-color: #414F6B;
+    opacity: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
