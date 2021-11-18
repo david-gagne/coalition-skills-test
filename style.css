@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Lato Black Italic";
+    src: url("fonts/Lato-BlackItalic.ttf");
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url("fonts/Bebas-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato Light";
+    src: url("fonts/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: "Oswald Bold";
+    src: url("fonts/Oswald-Bold.ttf");
+}
+
+
+#hero {
+    background-image: url("img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a.navbar-item:hover {
+    background-color: transparent !important;
+}
+
+.navbar-item img {
+    max-height: none;
+}
+
+.navbar-end a.navbar-item {
+    font-family: "Lato Black Italic", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    height: fit-content;
+    position: relative;
+    top: -4px;
+    border-bottom: 1px solid white;
+    padding: 0 1px;
+    margin: 0 15px;
+}
+
+.navbar-end a.navbar-item:nth-child(2) {
+    margin-right: 10px;
+}
+
+.navbar-end {
+    align-items: center;
+}
+
+.navbar > .container .navbar-brand {
+    margin-left: 0;
+}
+
+nav.navbar div.container {
+    max-width: 59vw !important;
+}
+
+section#history nav.navbar {
+    background-color: white;
+}
+
+h1.title {
+    font-size: 7vw;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: "Bebas", sans-serif;
+}
+
+h1.title span.gray {
+    color: #4D4D4D;
+}
+
+h1.title span.blue {
+    letter-spacing: 0.3vw;
+    color: #414F6B;
+}
+
+#hero-container, #team-container, #history-container {
+    top: -50px;
+    max-width: 47vw;
+}
+
+#history {
+    background-image: url("img/peak.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1.section-title {
+    font-size: 32px;
+    font-family: "Oswald Bold", sans-serif;
+    color: #414F6B !important;
+}
+
+#history-container {
+    top: -16.3vw;
+    left: 1.7vw;
+}
+
+#history-container > p{
+    text-align: left;
+    top: 4vw;
+    position: relative;
+    right: 3.5vw;
+}
+
+#history-title {
+    margin-bottom: 0px;
+    position: relative;
+    top: 1.8vw;
+}
+
