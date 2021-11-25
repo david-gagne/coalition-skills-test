@@ -16,25 +16,25 @@
 
     <!-- Hero Section -->
     <section id="hero" class="vw-100 vh-100 d-flex justify-content-center">
-        <!-- Navigation -->
+        <!-- Navigation TODO: Add a script to change the navbar appearance on scroll at a specific y position -->
         <nav class="navbar fixed-top">
-            <div class="container-sm">
+            <div class="container">
                 <a href="#" class="navbar-brand">
                     <img src="img/logo.png" alt="Mountain peaks logo">
                 </a>
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a href="" class="nav-link">01. History</a>
+                <ul class="nav me-5">
+                    <li class="nav-item border-bottom border-white me-5">
+                        <a href="" class="nav-link px-0">01. History</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">02. Team</a>
+                    <li class="nav-item border-bottom border-white ms-1 me-4">
+                        <a href="" class="nav-link px-0">02. Team</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
         <div class="container-sm d-flex align-items-center">
-            <h1>
+            <h1 class="display-1">
                 LosAngeles <br>
                 <span>Mountains</span>
             </h1>
@@ -42,9 +42,30 @@
     </section>
 
     <!-- History Section -->
-    <section class="vw-100 vh-100">
-        <div class="container-sm">
-            <h1>HISTORY SECTION</h1>
+    <section id="history" class="vw-100 vh-100">
+        <div id="carouselNavigationSelectors" class="carousel slide position-relative" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselNavigationSelectors" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselNavigationSelectors" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselNavigationSelectors" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner d-flex">
+                <div class="carousel-item">
+                    <img src="img/mountain-man.jpg" class="" alt=" ...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/mountain-man.jpg" class="" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="" alt="...">
+                </div>
+            </div>
         </div>
     </section>
 

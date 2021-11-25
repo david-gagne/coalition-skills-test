@@ -18,12 +18,73 @@
     src: url("fonts/Oswald-Bold.ttf");
 }
 
+/* Navbar Styles */
+nav.navbar {
+    background-color: transparent;
+}
+
+.nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Lato Black Italic";
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+
+/* Hero Section Styles */
 #hero {
     background-image: url("img/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-nav.navbar {
-    background-color: transparent;
+#hero h1.display-1 {
+    font-family: "Bebas";
+    text-transform: uppercase;
+    color: #4D4D4D;
+    font-size: 115px;
+    line-height: 130px;
+    position: relative;
+    bottom: 5vh !important; 
+}
+
+#hero h1.display-1 span {
+    color: #414F6B;
+    letter-spacing: 1px;
+    font-size: 124px;
+}
+
+#hero div.container-sm {
+    max-width: 40vw !important;
+}
+
+/* History Section Styles */
+#history {
+    background-image: url("img/peak.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#history .carousel {
+    top: 85%;
+    height: 15vh;
+    opacity: 80%;
+    background-color: #414F6B;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: none;
+}
+
+.carousel-item {
+    display: block;
+    width: fit-content;
 }
