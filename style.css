@@ -23,6 +23,11 @@ nav.navbar {
     background-color: transparent;
 }
 
+nav.navbar > div {
+    max-width: 70vw !important;
+    padding-left: 8vw;
+}
+
 .nav-link {
     color: #fff;
     text-transform: uppercase;
@@ -47,16 +52,17 @@ nav.navbar {
     font-family: "Bebas";
     text-transform: uppercase;
     color: #4D4D4D;
-    font-size: 115px;
-    line-height: 130px;
+    font-size: 8.6vw;
+    line-height: 9.6vw;
     position: relative;
-    bottom: 5vh !important; 
+    bottom: 10vh;
+    right: 6vw;
 }
 
 #hero h1.display-1 span {
     color: #414F6B;
     letter-spacing: 1px;
-    font-size: 124px;
+    font-size: 9vw;
 }
 
 #hero div.container-sm {
@@ -71,8 +77,8 @@ nav.navbar {
 }
 
 #history .carousel {
-    top: 85%;
-    height: 15vh;
+    top: 80%;
+    height: 20vh;
     opacity: 80%;
     background-color: #414F6B;
 }
@@ -87,4 +93,18 @@ nav.navbar {
 .carousel-item {
     display: block;
     width: fit-content;
+}
+
+.col img {
+    width: 100% !important;
+    height: fit-content !important;
+}
+
+.carousel-inner {
+    max-width: 50%;
+    height: 95% !important;
+}
+
+.row >* {
+    padding: 0 1% 0 1%;
 }
