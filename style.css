@@ -145,5 +145,17 @@ p.history-text {
     font-family: "Lato Light", sans-serif;
     color: #000;
     font-size: 16px;
-    max-width: 95%;
+    max-width: 70%;
+    position: relative;
+    left: 32%;
+    top: 2%;
+}
+
+#team div:nth-child(1) {
+    height: 200px;
+}
+
+#team div:nth-child(2) {
+    height: 40px;
+    background-color: #414F6B;
 }
