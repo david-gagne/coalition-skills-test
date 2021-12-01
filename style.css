@@ -18,6 +18,12 @@
     src: url("fonts/Oswald-Bold.ttf");
 }
 
+/* Page Wrapper Styles */
+.wrapper {
+    position: relative;
+    min-height: 100vh;
+}
+
 /* Navbar Styles */
 nav.navbar {
     background-color: transparent;
@@ -120,8 +126,8 @@ nav.navbar > div {
 #history div.history-text-container {
     max-width: 64%;
     position: relative;
-    left: 6.3%;
-    bottom: 2%;
+    left: 139px;
+    bottom: 6%;
 }
 
 p.history-text {
@@ -155,7 +161,80 @@ p.history-text {
     height: 200px;
 }
 
-#team div:nth-child(2) {
+#team #tabs {
     height: 40px;
     background-color: #414F6B;
+}
+
+#tabs > ul {
+    width: 51%;
+}
+
+#tabs > ul > li {
+    border-radius: 0%;
+    color: #414F6B;
+    font-family: "Oswald Bold", sans-serif;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+#tabs > ul > li:nth-child(1) {
+    background-color: #AFB3BD;
+    text-decoration: underline;
+}
+
+#tabs > ul > li:nth-child(2) {
+    background-color: transparent;
+    color: #AFB3BD;
+}
+
+#tab-body {
+    background-image: url("img/mountain-one.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75.2vh;
+}
+
+#schedule {
+    width: 42%;
+}
+
+#schedule h3 {
+    font-family: "Oswald Bold", sans-serif;
+    text-transform: uppercase;
+    color: #414F6B;
+    opacity: 100%;
+}
+
+#schedule p {
+    font-family: "Lato Light", sans-serif;
+    font-size: 16px;
+}
+
+#schedule > div {
+    background-color: rgba(255, 255, 255, .7);
+    width: 352px;
+    height: 229px !important;
+    padding: 23px 0 24px 40px;
+    position: relative;
+    bottom: 32%;
+}
+
+/* Footer Styles */
+footer {
+    height: 74px;
+    background-color: #414F6B;
+}
+
+footer div {
+    width: 70%;
+    padding-left: 5.3vw;
+}
+
+footer small {
+    font-family: "Lato Black Italic", sans-serif;
+    text-transform: uppercase;
+    color: #63769D;
+    letter-spacing: 1px;
 }

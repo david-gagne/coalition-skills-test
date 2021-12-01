@@ -13,99 +13,126 @@
 </head>
 
 <body>
+    <div class="wrapper">
+        <!-- Hero Section -->
+        <section id="hero" class="vw-100 vh-100 d-flex justify-content-center">
+            <!-- Navigation TODO: Add a script to change the navbar appearance on scroll at a specific y position -->
+            <nav class="navbar fixed-top">
+                <div class="container">
+                    <a href="#" class="navbar-brand">
+                        <img src="img/logo.png" alt="Mountain peaks logo">
+                    </a>
+                    <ul class="nav me-5">
+                        <li class="nav-item border-bottom border-white me-5">
+                            <a href="" class="nav-link px-0">01. History</a>
+                        </li>
+                        <li class="nav-item border-bottom border-white ms-1 me-4">
+                            <a href="" class="nav-link px-0">02. Team</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
-    <!-- Hero Section -->
-    <section id="hero" class="vw-100 vh-100 d-flex justify-content-center">
-        <!-- Navigation TODO: Add a script to change the navbar appearance on scroll at a specific y position -->
-        <nav class="navbar fixed-top">
-            <div class="container">
-                <a href="#" class="navbar-brand">
-                    <img src="img/logo.png" alt="Mountain peaks logo">
-                </a>
-                <ul class="nav me-5">
-                    <li class="nav-item border-bottom border-white me-5">
-                        <a href="" class="nav-link px-0">01. History</a>
-                    </li>
-                    <li class="nav-item border-bottom border-white ms-1 me-4">
-                        <a href="" class="nav-link px-0">02. Team</a>
-                    </li>
+            <div class="container-sm d-flex align-items-center">
+                <h1 class="display-1">
+                    LosAngeles <br>
+                    <span>Mountains</span>
+                </h1>
+            </div>
+        </section>
+
+        <!-- History Section -->
+        <section id="history" class="vw-100 vh-100">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="history-text-container">
+                    <p class="history-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat
+                        rutrum,
+                        consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt
+                        quam.
+                        Cras
+                        scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique
+                        ut
+                        quam.
+                        Vivamus suscipit dignissim tortor nec congue.
+                    </p>
+                </div>
+            </div>
+            <div id="carouselNavigationSelectors" class="carousel slide position-relative d-flex justify-content-center"
+                data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselNavigationSelectors" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselNavigationSelectors" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselNavigationSelectors" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner d-flex justify-content-center">
+                    <div class="row align-items-center">
+                        <div class="col d-flex justify-content-center">
+                            <img src="img/mountain-man.jpg" alt="">
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <img src="img/foggy-mountain.jpg" alt="">
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <img src="img/mountain-man.jpg" alt="">
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <img src="img/foggy-mountain.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Climb / Team Section -->
+        <section id="team" class="vw-100 vh-100">
+            <div class="d-flex justify-content-center align-items-start">
+                <div class="bg-climb d-flex align-items-center">
+                    <p>
+                        Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac,
+                        tristique
+                        ut quam. Vivamus suscipit dignissim tortor nec congue.
+                    </p>
+                </div>
+            </div>
+            <div id="tabs" class="vw-100 d-flex justify-content-center">
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item">Mountain 1</li>
+                    <li class="list-group-item">Mountain 2</li>
                 </ul>
             </div>
-        </nav>
+            <div id="tab-body" class="d-flex justify-content-center align-items-center">
+                <div id="schedule" class="d-flex">
+                    <div>
+                        <h3>Schedule</h3>
 
-        <div class="container-sm d-flex align-items-center">
-            <h1 class="display-1">
-                LosAngeles <br>
-                <span>Mountains</span>
-            </h1>
-        </div>
-    </section>
+                        <!-- Mountain 1 Schedule -->
+                        <div class="">
+                            <p>25 Nov 2016 Vestibulum viverra <br> 28 Nov 2016 Vestibulum viverra</p>
+                            <p>18 Dec 2016 Vestibulum viverra</p>
+                            <p>7 Jan 2017 Vestibulum viverra</p>
+                        </div>
 
-    <!-- History Section -->
-    <section id="history" class="vw-100 vh-100">
-        <div class="d-flex justify-content-center align-items-center">
-            <div class="history-text-container">
-                <p class="history-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum,
-                    consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam.
-                    Cras
-                    scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut
-                    quam.
-                    Vivamus suscipit dignissim tortor nec congue.
-                </p>
-            </div>
-        </div>
-        <div id="carouselNavigationSelectors" class="carousel slide position-relative d-flex justify-content-center"
-            data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselNavigationSelectors" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselNavigationSelectors" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselNavigationSelectors" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner d-flex justify-content-center">
-                <div class="row align-items-center">
-                    <div class="col d-flex justify-content-center">
-                        <img src="img/mountain-man.jpg" alt="">
-                    </div>
-                    <div class="col d-flex justify-content-center">
-                        <img src="img/foggy-mountain.jpg" alt="">
-                    </div>
-                    <div class="col d-flex justify-content-center">
-                        <img src="img/mountain-man.jpg" alt="">
-                    </div>
-                    <div class="col d-flex justify-content-center">
-                        <img src="img/foggy-mountain.jpg" alt="">
+                        <!-- Mountain 2 Schedule -->
+                        <div class="d-none">
+                            <p>17 Nov 2016 Vestibulum viverra</p>
+                            <p>13 Dec 2016 Vestibulum viverra <br> 28 Dec 2016 Vestibulum viverra</p>
+                            <p>9 Feb 2017 Vestibulum viverra</p>
+                        </div>
                     </div>
                 </div>
             </div>
-    </section>
-
-    <!-- Climb / Team Section -->
-    <section id="team" class="vw-100 vh-100">
-        <div class="d-flex justify-content-center align-items-start">
-            <div class="bg-climb d-flex align-items-center">
-                <p>
-                    Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique
-                    ut quam. Vivamus suscipit dignissim tortor nec congue.
-                </p>
-            </div>
-        </div>
-        <div class="vw-100">
-            <ul class="list-group list-group-horizontal">
-                <li class="list-group-item">Mountain 2</li>
-                <li class="list-group-item">Mountain 1</li>
-            </ul>
-        </div>
-        <div></div>
-    </section>
-
+        </section>
+    </div>
 
     <!-- Footer -->
-    <footer class="container-fluid">
-        <h1>FOOTER</h1>
+    <footer class="d-flex align-items-center justify-content-center">
+        <div class="d-flex justify-content-between align-items-center">
+            <img src="img/full-logo-blue.png" alt="">
+            <small>Copyright 2016. All Rights Reserved.</small>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
