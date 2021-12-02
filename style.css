@@ -238,3 +238,25 @@ footer small {
     color: #63769D;
     letter-spacing: 1px;
 }
+
+/* Mobile Breakpoints */
+
+/* Navbar Breakpoints */
+@media screen and (max-width: 900px) {
+    ul.nav {
+        display: none;
+    }
+
+    i {
+        display: block;
+        color: #414F6B;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    i {
+        display: none !important;
+    }
+}
+
+/* Hero Section Breakpoints */
