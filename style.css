@@ -20,7 +20,6 @@
 
 /* Page Wrapper Styles */
 .wrapper {
-    position: relative;
     min-height: 100vh;
 }
 
@@ -111,7 +110,7 @@ nav.navbar > div {
 }
 
 .carousel-inner {
-    max-width: 50%;
+    max-width: 85%;
     height: 95% !important;
 }
 
@@ -239,7 +238,7 @@ footer small {
     letter-spacing: 1px;
 }
 
-/* Mobile Breakpoints */
+/* MOBILE BREAKPOINTS */
 
 /* Navbar Breakpoints */
 @media screen and (max-width: 900px) {
@@ -249,7 +248,7 @@ footer small {
 
     i {
         display: block;
-        color: #414F6B;
+        color: #fff;
     }
 }
 
@@ -259,4 +258,218 @@ footer small {
     }
 }
 
+@media screen and (max-width: 480px) {
+    nav.navbar > div {
+        max-width: none !important;
+        padding-left: 12px;
+    }
+}
+
 /* Hero Section Breakpoints */
+@media screen and (max-width: 900px) {
+    #hero h1.display-1 {
+        font-size: 11.3vw;
+        line-height: 11vw;
+    }
+
+    #hero h1.display-1 span {
+        font-size: 12.1vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #hero h1.display-1 {
+        font-size: 14.3vw;
+        line-height: 14vw;
+    }
+
+    #hero h1.display-1 span {
+        font-size: 15.1vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #hero h1.display-1 {
+        right: 10.5vw;
+    }
+}
+
+/* History Section Breakpoints */
+@media screen and (max-width: 940px) {
+    #history div.history-text-container {
+        left: 0px;
+        bottom: 0%;
+        top: 5%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #history div.history-text-container {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    p.history-text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    p.history-text {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #history {
+        background-position-x: 23%;
+    }
+ }
+
+@media screen and (max-width: 900px) {
+    .carousel-inner {
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width: 772px) {
+   div.col:first-child {
+       display: none !important;
+   }
+
+   div.col:last-child {
+       display: none !important;
+   }
+}
+
+/* Climb / Team Section */
+@media screen and (max-width: 1272px) {
+    .bg-climb > p {
+        max-width: 90%;
+    }
+ }
+
+@media screen and (max-width: 800px) {
+    .bg-climb {
+        background-size: 45%;
+    }
+
+    .bg-climb > p {
+        max-width: 95%;
+        left: 50%;
+    }
+ }
+
+@media screen and (max-width: 480px) {
+    div.plus-480 {
+        display: none !important;
+    }
+
+    div.minus-480 {
+        display: block;
+        background-image: url("img/02climb.jpg");
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position-x: center;
+        background-position-y: 35%;
+    }
+
+    div.minus-480 p {
+        font-family: "Lato Light", sans-serif;
+        font-size: 12px;
+    }
+ }
+
+@media screen and (min-width: 481px) {
+    div.plus-480 {
+        display: block;
+    }
+
+    div.minus-480 {
+        display: none !important;
+    }
+ }
+
+@media screen and (max-width: 670px) {
+    .bg-climb > p {
+       font-size: 14px;
+    }
+ }
+
+@media screen and (max-width: 480px) {
+    .bg-climb > p {
+       font-size: 12px;
+    }
+ }
+
+@media screen and (max-width: 438px) {
+    #tabs > ul {
+        width: 100%;
+    }
+ }
+
+@media screen and (max-width: 838px) {
+    #schedule {
+        width: 80%;
+    }
+
+    #schedule > div {
+        left: 20%;
+    }
+ }
+
+@media screen and (max-width: 320px) {
+    #schedule {
+        width: 100%;
+    }
+ }
+
+@media screen and (max-width: 480px) {
+    #schedule > div {
+        left: 0%;
+    }
+ }
+
+ /* Footer Breakpoints */
+ @media screen and (max-width: 930px) {
+    footer small {
+        font-size: 12px;
+    }
+ }
+
+ @media screen and (max-width: 650px) {
+    footer div {
+        width: 95%;
+    }
+    
+    footer small {
+        font-size: xx-small;
+    }
+ }
+
+ @media screen and (max-width: 480px) {
+   footer img {
+       width: 25% !important;
+   }
+ }
+
+ @media screen and (max-width: 550px) {
+   footer img {
+       width: 35% !important;
+   }
+
+   footer small.copyright {
+       display: none;
+   }
+
+   footer small.copyright-550-minus {
+       display: inline;
+   }
+ }
+
+ @media screen and (min-width: 551px) {
+   footer small.copyright-550-minus {
+       display: none;
+   }
+ }
