@@ -299,7 +299,7 @@ footer small {
     #history div.history-text-container {
         left: 0px;
         bottom: 0%;
-        top: 5%;
+        top: 10%;
     }
 }
 
@@ -342,6 +342,46 @@ footer small {
        display: none !important;
    }
 }
+
+@media screen and (max-height: 830px) {
+    #history .carousel {
+        top: 17%;
+        height: 23vh;
+    }
+
+    .carousel-indicators {
+        bottom: 0%;
+    }
+ }
+
+@media screen and (max-height: 797px) {
+    .carousel-indicators {
+        bottom: -3%;
+    }
+ }
+
+@media screen and (max-height: 720px) {
+    #history .carousel {
+        top: 15%;
+        height: 25vh;
+    }
+    
+    .carousel-indicators {
+        bottom: -5%;
+    }
+ }
+
+@media screen and (max-height: 660px) {
+    #history .carousel {
+        top: 10%;
+        height: 30vh;
+    }
+    
+    .carousel-indicators {
+        bottom: -4%;
+    }
+ }
+
 
 /* Climb / Team Section */
 @media screen and (max-width: 1272px) {
@@ -428,6 +468,13 @@ footer small {
 @media screen and (max-width: 480px) {
     #schedule > div {
         left: 0%;
+    }
+ }
+
+@media screen and (max-height: 740px) {
+    div.minus-480 {
+        background-size: 30%;
+        background-position-y: 15%;
     }
  }
 
