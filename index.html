@@ -18,21 +18,20 @@
     <div class="wrapper">
         <!-- Hero Section -->
         <section id="hero" class="vw-100 vh-100 d-flex justify-content-center">
-            <!-- Navigation TODO: Add a script to change the navbar appearance on scroll at a specific y position -->
             <nav class="navbar fixed-top">
                 <div class="container">
-                    <a href="#" class="navbar-brand">
+                    <a href="/" class="navbar-brand">
                         <img src="img/logo.png" alt="Mountain peaks logo">
                     </a>
                     <ul class="nav me-5">
                         <li class="nav-item border-bottom border-white me-5">
-                            <a href="" class="nav-link px-0">01. History</a>
+                            <a href="#history" class="nav-link px-0 pb-0">01. History</a>
                         </li>
                         <li class="nav-item border-bottom border-white ms-1 me-4">
-                            <a href="" class="nav-link px-0">02. Team</a>
+                            <a href="#team" class="nav-link px-0 pb-0">02. Team</a>
                         </li>
                     </ul>
-                    <i class="fas fa-bars fa-2x"></i>
+                    <i class="fas fa-bars fa-2x" data-bs-toggle="offcanvas" href="#offcanvasExample"></i>
                 </div>
             </nav>
 
@@ -43,6 +42,24 @@
                 </h1>
             </div>
         </section>
+
+        <!-- Sticky Navbar -->
+        <nav class="navbar sticky-top">
+            <div class="container">
+                <a href="/" class="navbar-brand">
+                    <img src="img/full-logo.png" alt="Mountain peaks logo">
+                </a>
+                <ul class="nav me-5">
+                    <li class="nav-item border-bottom me-5">
+                        <a href="#history" class="nav-link px-0 pb-0">01. History</a>
+                    </li>
+                    <li class="nav-item border-bottom ms-1 me-4">
+                        <a href="#team" class="nav-link px-0 pb-0">02. Team</a>
+                    </li>
+                </ul>
+                <i class="fas fa-bars fa-2x" data-bs-toggle="offcanvas" href="#offcanvasExample"></i>
+            </div>
+        </nav>
 
         <!-- History Section -->
         <section id="history" class="vw-100 vh-100">
@@ -145,6 +162,24 @@
             <small class="copyright-550-minus">Copyright 2016. <br> All Rights Reserved.</small>
         </div>
     </footer>
+
+    <!-- Mobile Menu -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <img src="img/full-logo.png" alt="Mountain peaks logo">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body d-flex justify-content-center">
+            <ul class="nav flex-column mt-5">
+                <li class="nav-item">
+                    <a class="nav-link text-center fs-1" href="#history">01. History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center fs-1" href="#team">02. Team</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
