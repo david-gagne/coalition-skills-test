@@ -266,6 +266,12 @@ footer small {
     letter-spacing: 1px;
 }
 
+/* Mobile Menu Breakpoints */
+.offcanvas > footer > div {
+    width: 100%;
+    padding: 0 1rem 0 1rem;
+}
+
 /* MOBILE BREAKPOINTS */
 
 /* Navbar Breakpoints */
@@ -507,9 +513,13 @@ footer small {
  }
 
  /* Footer Breakpoints */
- @media screen and (max-height: 650px) {
-    footer {
+ @media screen and (max-height: 700px) {
+    body > footer {
         visibility: hidden;
+    }
+
+    #tab-body {
+        height: 76vh;
     }
   } 
 
