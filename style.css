@@ -416,6 +416,42 @@ footer small {
     }
  }
 
+@media screen and (max-height: 540px) {
+    #history .carousel {
+        top: 6%;
+        height: 34vh;
+    }
+
+    #history div.history-text-container {
+        left: 80px;
+        bottom: -15%;
+    }
+
+    #schedule > div {
+        bottom: 0;
+    }
+ }
+
+@media screen and (max-height: 460px) {
+    #hero h1.display-1 {
+        bottom: 0;
+    }
+    
+    #history .carousel {
+        top: -2%;
+        height: 42vh;
+    }
+
+    #history div.history-text-container {
+        left: 80px;
+        bottom: -25%;
+    }
+
+    #schedule > div {
+        bottom: 0;
+    }
+ }
+
 
 /* Climb / Team Section */
 @media screen and (max-width: 1272px) {
