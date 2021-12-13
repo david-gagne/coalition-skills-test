@@ -206,21 +206,28 @@ p.history-text {
     cursor: pointer;
 }
 
-#tabs > ul > li:nth-child(1) {
+.tab-selected {
     background-color: #AFB3BD;
     text-decoration: underline;
 }
 
-#tabs > ul > li:nth-child(2) {
+.tab-deselected {
     background-color: transparent;
-    color: #AFB3BD;
+    color: #AFB3BD !important;
 }
 
 #tab-body {
-    background-image: url("img/mountain-one.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 75.2vh;
+}
+
+.mountain-one {
+    background-image: url("img/mountain-one.jpg");
+}
+
+.mountain-two {
+    background-image: url("img/mountain-two.jpg");
 }
 
 #schedule {

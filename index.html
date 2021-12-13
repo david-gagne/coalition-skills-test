@@ -126,27 +126,31 @@
             </div>
             <div id="tabs" class="vw-100 d-flex justify-content-center">
                 <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item">Mountain 1</li>
-                    <li class="list-group-item">Mountain 2</li>
+                    <li class="list-group-item tab-selected">Mountain 1</li>
+                    <li class="list-group-item tab-deselected">Mountain 2</li>
                 </ul>
             </div>
-            <div id="tab-body" class="d-flex justify-content-center align-items-center">
+            <div id="tab-body" class="mountain-one d-flex justify-content-center align-items-center">
                 <div id="schedule" class="d-flex">
                     <div>
                         <h3>Schedule</h3>
 
                         <!-- Mountain 1 Schedule -->
-                        <div class="">
-                            <p>25 Nov 2016 Vestibulum viverra <br> 28 Nov 2016 Vestibulum viverra</p>
-                            <p>18 Dec 2016 Vestibulum viverra</p>
-                            <p>7 Jan 2017 Vestibulum viverra</p>
+                        <div id="mountain-one">
+                            <div id="mountain-one-content">
+                                <p>25 Nov 2016 Vestibulum viverra <br> 28 Nov 2016 Vestibulum viverra</p>
+                                <p>18 Dec 2016 Vestibulum viverra</p>
+                                <p>7 Jan 2017 Vestibulum viverra</p>
+                            </div>
                         </div>
 
                         <!-- Mountain 2 Schedule -->
-                        <div class="d-none">
-                            <p>17 Nov 2016 Vestibulum viverra</p>
-                            <p>13 Dec 2016 Vestibulum viverra <br> 28 Dec 2016 Vestibulum viverra</p>
-                            <p>9 Feb 2017 Vestibulum viverra</p>
+                        <div id="mountain-two" class="d-none">
+                            <div id="mountain-two-content" class="d-none">
+                                <p>17 Nov 2016 Vestibulum viverra</p>
+                                <p>13 Dec 2016 Vestibulum viverra <br> 28 Dec 2016 Vestibulum viverra</p>
+                                <p>9 Feb 2017 Vestibulum viverra</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -191,6 +195,7 @@
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
